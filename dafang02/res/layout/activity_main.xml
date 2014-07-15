@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/game_bg"
+    android:orientation="vertical" >
+	
+     <TextView
+        android:id="@+id/somewords"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:textSize="12sp"
+        android:textColor="#FFFFFF"
+        android:text="@string/somewords" />
+     <TextView
+        android:id="@+id/somewords_02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="12sp"
+        android:textColor="#FFFFFF"
+        android:text="@string/somewords_02" />
+      <TextView
+        android:id="@+id/somewords_03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="12sp"
+        android:textColor="#FFFFFF"
+        android:text="@string/somewords_03" />
+      <TextView
+        android:id="@+id/somewords_04"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="12sp"
+        android:textColor="#FFFFFF"
+        android:text="@string/somewords_04" />
+      <TextView
+        android:id="@+id/bestwishes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="3dp"
+        android:textSize="15sp"
+        android:textColor="#FFFFFF"
+        android:text="@string/bestwishes" />
+    
+    
+    <Button
+        android:id="@+id/btn_new"
+        android:layout_width="100dp"
+        android:layout_height="35dp"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:background="@drawable/btn_bg_green"
+        android:alpha="50"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="218dp"
+        android:text="@string/newGame" />
+
+    <Button
+        android:id="@+id/btn_config"
+        android:layout_width="100dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/btn_bg_green"
+        android:textSize="20sp"
+        android:textColor="#FFFFFF"
+        android:layout_gravity="center"
+        android:text="@string/gameConfig" />
+
+    <Button
+        android:id="@+id/btn_specify"
+        android:layout_width="100dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/btn_bg_green"
+        android:textSize="20sp"
+        android:textColor="#FFFFFF"
+        android:layout_gravity="center"
+        android:text="@string/gameSpecification" />
+     <Button
+        android:id="@+id/btn_quit"
+        android:layout_width="100dp"
+        android:background="@drawable/btn_bg_green"
+        android:layout_height="35dp"
+        android:layout_marginTop="5dp"
+        android:textSize="20sp"
+        android:textColor="#FFFFFF"
+        android:layout_gravity="center"
+        android:text="@string/btn_quit" />
+    
+   
+    <TextView
+        android:id="@+id/text_copyright"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:textColor="#FFFFFF"
+        android:text="@string/gamecopyright" />
+     <TextView
+        android:id="@+id/mailbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:textColor="#FFFFFF"
+        android:text="@string/mailbox_text" />
+    
+
+</LinearLayout>

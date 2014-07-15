@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">来大方</string>
+    <string name="newGame"> 新 游 戏 </string>
+    <string name="gameConfig">游戏设置</string>
+    <string name="gameSpecification">玩法介绍</string>
+    <string name="btn_quit">退出游戏</string>
+    <string name="somewords">…那些年我们还有暑假，那些年我们有很多游戏…</string>
+    <string name="somewords_02">…这些年再也没有暑假，也只剩下一个游戏叫生存…</string>
+    <string name="somewords_03">…谨以此游戏怀念那些暑假，那些已各奔东西的小伙伴…</string>
+    <string name="somewords_04">…愿所有的小伙伴生活美好，快乐幸福…</string>
+    <string name="bestwishes">*^__^*愿小侄女永远健康快乐!*^__^*</string>
+    <string name="gamecopyright">本游戏所有解释权归作者所有 @ Copyright</string>
+    <string name="playerVScomputer">人机大战</string>
+    <string name="playerVSplayer">两人对战</string>
+    <string name="selffirst">玩家先搁棋</string>
+    <string name="ismusic">背景音乐</string>
+    <string name="mode_text">模式：</string>
+    <string name="favor_chess_text">玩家用：</string>
+    <string name="leaf_chess">树叶当棋子</string>
+    <string name="bar_chess">小棍当棋子</string>
+    <string name="specify_title">玩法说明</string>
+    <string name="btn_back_text">返回</string>
+    <string name="prompting_text">注意！：当选择两人对战时,棋子设置对实际先搁棋的玩家有效，"玩家先搁棋"设置无效</string>
+    <string name="jianjie_title_text">一、简介</string>
+    <string name="sepcification_text">此游戏流传于河南周口及安徽阜阳地区(本人所知，应该范围更广)，随时随地即可玩，田间地头，大树下，桥墩上，只要画出6横6竖的方格当棋盘，找树叶、泥 巴、草棍等当棋子即可</string>
+    <string name="rule_title_text">二、规则</string>
+    <string name="rule_01_text">1.棋盘 棋盘为六竖六横画成的正方平面格，两方各执一色棋子（基本上都是用泥巴块、小棍和树叶…），落棋于每个交叉点上</string>
+    <string name="rule_02_text">2.落棋方法 任何一方先落子，放在棋盘的任何位置上均可，后落字者可以先移动棋子。玩家可以摆成几种阵型以赢得多落子的权利</string>
+    <string name="rule_03_text">3.大方：在棋盘任何位置的一个格上，组成一个格子的四个点位上全部放上自己的棋子就叫大方，可以在组成大方后再落一子</string>
+    <string name="rule_04_text">4.三斜：连续三个棋子串连，而且形成一个斜线，但斜线的两端必须都在棋盘的边线点位上，可以在组成三斜后再落一子</string>
+    <string name="rule_05_text">5.四斜：连续四个棋子串连，规则同上！ 可以在组成四斜后再落一子</string>
+    <string name="rule_06_text">6.五斜：连续五个棋子串连，规则同上！ 可以在组成五斜后再落二子</string>
+    <string name="rule_07_text">7.通州：连续六个棋子串连，规则同上！ 可以在组成通州后再落三子</string>
+    <string name="rule_08_text">8.龙 ： 横竖六个一样的棋子连成一条线，可以在组成龙后再落三子[四边的龙称为“边龙”，组成后无再落三子的权利，但在走棋阶段却不可以薅(hao一声，河南方言，拔的意思)掉]</string>
+    <string name="rule_09_text">9.当棋搁满后，双方各薅掉对方两子，后搁棋的一方先薅，但双方不能薅已经成方(包括三斜、四斜、五斜、通州、龙。下同)的棋子。薅完后开始走棋，后搁棋者先走，棋可以上下左右走动，每次只能跨一格，且只能往无棋的交叉点走动。
+        						走棋后如果成方，则可获得薅对方棋子的权利，棋子数与3~8中规定的相同，且只能薅不为方的棋子，只到一方无棋或认输为止</string>
+    <string name="canRegret_text">带悔棋（只能悔一步）</string>
+    <string name="mailbox_text">etwoboy@gmail.com</string>
+    
+    
+
+    
+
+</resources>

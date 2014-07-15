@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/mode_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="50dp"
+        android:text="@string/mode_text"
+        android:textSize="18sp" />
+ 
+    <RadioGroup
+        android:id="@+id/play_model_rdiogroup"
+        android:layout_marginLeft="100dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+	     <RadioButton
+	        android:id="@+id/playerVScomputer"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        
+	        android:text="@string/playerVScomputer" />
+	
+	     <RadioButton
+	        android:id="@+id/playerVSplayer"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/playerVSplayer" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/favor_chess_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/favor_chess_text"
+        android:textSize="18sp" />
+ 
+    <RadioGroup
+        android:id="@+id/favor_chess"
+        android:layout_marginLeft="100dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+	     <RadioButton
+	        android:id="@+id/leaf_chess"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        
+	        android:text="@string/leaf_chess" />
+	
+	     <RadioButton
+	        android:id="@+id/bar_chess"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/bar_chess" />
+    </RadioGroup>
+    
+
+    <CheckBox
+        android:id="@+id/selffirst"
+        android:layout_marginLeft="80dp"
+  	 	android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/selffirst" />
+
+    <CheckBox
+        android:id="@+id/ismusic"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ismusic" />
+
+    <CheckBox
+        android:id="@+id/canRegret"
+       android:layout_marginLeft="80dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/canRegret_text" />
+
+    <Button
+        android:id="@+id/btn_con_back"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:layout_width="100dp" 
+        android:layout_height="wrap_content"
+        android:text="@string/btn_back_text" />
+    <TextView
+        android:id="@+id/prompting_text"
+        android:layout_width="wrap_content"
+        android:textColor="#FF0000"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_gravity="center"
+        android:text="@string/prompting_text"
+        android:textSize="15sp" />
+
+</LinearLayout>

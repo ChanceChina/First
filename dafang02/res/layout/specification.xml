@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+       android:layout_width="fill_parent"
+      android:layout_height="fill_parent">
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+	<LinearLayout
+	     android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical" >
+	    
+	
+    <TextView
+        android:id="@+id/specify_title"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:textSize="18sp"
+        android:textColor="#666666"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/specify_title" />
+ 	<TextView
+        android:id="@+id/jianjie_title"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/jianjie_title_text" />
+    <TextView
+        android:id="@+id/sepcification_text"
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sepcification_text" />
+    <TextView
+        android:id="@+id/rule_title"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/rule_title_text" />
+    <TextView
+        android:id="@+id/rule_01"
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/rule_01_text" />
+    <TextView
+        android:id="@+id/rule_02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/rule_02_text" />
+    
+    <TextView
+        android:id="@+id/rule_03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/rule_03_text" />
+    
+    <TextView
+        android:id="@+id/rule_04"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/rule_04_text" />
+    
+    <TextView
+        android:id="@+id/rule_05"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/rule_05_text" />
+    
+    <TextView
+        android:id="@+id/rule_06"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/rule_06_text" />
+     <TextView
+        android:id="@+id/rule_07"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/rule_07_text" />
+     <TextView
+        android:id="@+id/rule_08"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/rule_08_text" />
+     <TextView
+        android:id="@+id/rule_09"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/rule_09_text" />
+    </LinearLayout>
+    </ScrollView>
+	<LinearLayout
+        android:layout_height="wrap_content"
+        android:id="@+id/llybuttom"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true" >
+    
+		    <Button
+		        android:id="@+id/btn_back"
+		        android:layout_marginTop="5dp"
+		        android:layout_gravity="bottom"
+		        android:layout_width="match_parent" 
+		        android:layout_height="wrap_content"
+		        android:text="@string/btn_back_text" />
+       </LinearLayout>
+</RelativeLayout>
